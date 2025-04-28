@@ -1,0 +1,148 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: wheat;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 150%;
+    z-index: 1;
+    color: antiquewhite;
+    padding: 10px;
+}
+
+.header img {
+    width: 75px;
+}
+
+nav a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color:rgb(179, 142, 94);
+    font-size: 20px;
+    box-shadow: 0px 0px 3px;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: rgb(161, 126, 51);
+    color: rgb(250, 221, 177);
+    transition: 0.4s;
+    border-radius: 8px;
+}
+
+section.home {
+    background: url("rumah.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+section.home div {
+    text-align: center;
+    color: beige;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}
+section.home.welcome {
+    font-size: 30px;
+}
+section.home a {
+    color: beige;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+
+
+section.about {
+    background-color: rgb(168, 3, 3);
+    height: 600px;
+    padding-top: 100px;
+}
+
+section.about div {
+    color: beige;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+section.about img {
+    height: 200px;
+}
+
+
+section.product {
+    background: url("tentang.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+section.product.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+section.product .container .card {
+    background-color: beige;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: 400px;
+    margin: 15px;
+}
+
+section.product.container.card img {
+    width: 100%;
+}
+
+section.product.container.card a {
+    color: beige;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+
+section.contact {
+    background-color: beige;
+    height: 600px;
+}
+
+section.contact.card {
+    margin: auto;
+    color: rgb(140, 140, 235);
+    text-align: center;
+    padding-top: 100px;
+    width: 400px;
+}
+
+section.contact.card img {
+    width: 200px;
+}
+
+
+footer {
+    background-color: beige;
+    height: 50px;
+}
+
+footer.medsos {
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer.medsos a {
+    color: beige;
+    font-size: 20px;
+    padding: 5px 20px;
+}
